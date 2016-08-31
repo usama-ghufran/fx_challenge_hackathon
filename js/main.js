@@ -73,7 +73,29 @@ function init()
     var slab_objPath = 'assets/slab.obj';
     OBJMesh(slab_objPath, slab_texPath, "slab");
     
+    /* //Stanford Bunny
+    var bunny_texPath = 'assets/rocky.jpg';
+    var bunny_objPath = 'assets/stanford_bunny.obj';
+    OBJMesh(bunny_objPath, bunny_texPath, "bunny");
+    */
 
+    /* //Sphere
+    var sphere_texPath = 'assets/rocky.jpg';
+    var sphere_objPath = 'assets/sphere.obj';
+    OBJMesh(sphere_objPath, sphere_texPath, "sphere");
+    */
+
+    /* //Cube
+    var cube_texPath = 'assets/rocky.jpg';
+    var cube_objPath = 'assets/cube.obj';
+    OBJMesh(cube_objPath, cube_texPath, "cube");
+    */
+    
+    /* //Cone
+    var cone_texPath = 'assets/rocky.jpg';
+    var cone_objPath = 'assets/cone.obj';
+    OBJMesh(cone_objPath, cone_texPath, "cone");
+    */
     
     // Add OrbitControls so that we can pan around with the mouse.
     controls = new THREE.OrbitControls(camera, renderer.domElement);
