@@ -5,10 +5,15 @@ You will need to use your coding ability to create ‘sparks’. You are provide
 
 
 Various Levels of Complexities: 
+
 L0: Basic natural motion of sparks (projectile motion, air and ground friction)
+
 L1: Collision with ground plane
+
 L2: Sparks should split randomly post collision to give variation
+
 L3: Collision with a minimum of one of the given primitive shapes 
+
 L4: Collision with the ‘Stanford Bunny’
 
 You are free to use graphical enhancements (sprites/glow/complex-lighting etc.) on your output to make it visually appealing and look natural/realistic.
